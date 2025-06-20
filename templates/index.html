@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 30px; background: #f9f9f9; }
+        .task { padding: 8px; margin: 5px 0; border-radius: 4px; }
+        .done { text-decoration: line-through; color: grey; }
+        .btn { padding: 5px 10px; text-decoration: none; border-radius: 4px; margin-left: 5px; }
+        .add-button { background: #4CAF50; color: white; }
+        .mark-button { background: #2196F3; color: white; }
+        .delete-button { background: #F44336; color: white; }
+    </style>
+</head>
+<body>
+    <h1>🌟 To-Do List</h1>
+    <form method="POST" action="{{ url_for('add_task') }}">
+        <input type="text" name="task" placeholder="Enter new task">
+        <button class="add-button" type="submit">Add</button>
+    </form>
+
+    <ul>
+        {% for task in tasks %}
+        <li class="task {% if task.done %}done{% endif %}">
+            {{ task.name }}
+            <a class="btn mark-button" href="{{ url_for('mark_done', task_id=loop.index0) }}">✔️ Done</a>
+            <a class="btn delete-button" href="{{ url_for('delete_task', task_id=loop.index0) }}">❌ Delete</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
