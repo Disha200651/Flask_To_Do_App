@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9602047c-d97b-4eb0-96f8-08763b1036a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Book1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Book1lab.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Git-2.50.0-64-bit.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customplots.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/program1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/program2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/program3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/program4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/program6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/program7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subplot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="9602047c-d97b-4eb0-96f8-08763b1036a3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
